@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Balance Sheet: Analyzing Financial Solvency | Rally</title>
+    <meta name="description" content="Learn how to read a corporate balance sheet. Understand the accounting equation, assets vs. liabilities, and how a company's net worth affects its stock price.">
+    <link rel="canonical" href="https://www.rallyblog.in/post-balance-sheet.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --primary: #ee6c4c;
+            --text-main: #1F2937;
+            --text-muted: #64748B;
+            --white: #FFFFFF;
+            --light-bg: #F8FAFC;
+        }
+
+        body { font-family: 'Inter', sans-serif; color: var(--text-main); background-color: var(--white); line-height: 1.8; margin: 0; }
+        
+        nav { display: flex; align-items: center; padding: 20px 5%; background: var(--white); border-bottom: 1px solid #E2E8F0; }
+        .logo { font-size: 1.2rem; font-weight: 800; color: #0F172A; text-decoration: none; }
+        .logo span { color: var(--primary); }
+        .logo i { color: var(--primary); margin-right: 10px; }
+
+        .article-container { max-width: 800px; margin: 60px auto 80px; padding: 0 20px; }
+        
+        .category { color: var(--primary); font-weight: 800; text-transform: uppercase; font-size: 0.9rem; }
+        h1 { font-size: 2.8rem; font-weight: 800; margin: 10px 0 20px; color: #0F172A; line-height: 1.2; }
+        .meta { color: var(--text-muted); margin-bottom: 40px; font-weight: 500; }
+
+        .mandatory-disclosure { background: #FFF7ED; border: 1px solid #FED7AA; border-radius: 12px; padding: 25px; margin-bottom: 40px; font-size: 0.95rem; }
+        .mandatory-disclosure strong { color: #C2410C; display: block; margin-bottom: 5px; }
+
+        h2 { font-size: 1.8rem; margin: 50px 0 20px; color: #0F172A; border-bottom: 2px solid #F1F5F9; padding-bottom: 10px; }
+        h3 { color: var(--primary); margin: 30px 0 10px; font-size: 1.2rem; }
+        
+        .formula-box { background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; padding: 25px; text-align: center; margin: 30px 0; font-size: 1.1rem; }
+
+        .comparison-table { width: 100%; border-collapse: collapse; margin: 30px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; font-size: 0.95rem; }
+        .comparison-table th { background: #F1F5F9; padding: 15px; text-align: left; font-weight: 700; }
+        .comparison-table td { padding: 15px; border-top: 1px solid #E2E8F0; }
+
+        .highlight-box { background: var(--light-bg); border-left: 4px solid var(--primary); padding: 25px; margin: 30px 0; border-radius: 0 12px 12px 0; }
+
+        footer { background: #F8FAFC; text-align: center; padding: 40px; border-top: 1px solid #E2E8F0; }
+        footer a { color: var(--primary); text-decoration: none; font-weight: 600; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .comparison-table { font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="icon" href="favicon.ico" sizes="640x640">
+    <link rel="icon" type="image/png" href="logo.png" sizes="640x640">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <nav>
+        <a href="index.html" class="logo"><i class="fa-solid fa-chart-line"></i>Rally</a>
+    </nav>
+
+    <main class="article-container">
+        <span class="category">Fundamental Analysis</span>
+        <h1>The Balance Sheet: Analyzing Financial Solvency</h1>
+        <div class="meta">March 2026 | Equity Research</div>
+
+        <div class="mandatory-disclosure">
+            <strong>Legal Disclaimer & Disclosure</strong>
+            This content is strictly for educational purposes. I am not a SEBI-registered Investment Adviser (RIA) or Research Analyst (RA). Nothing posted here should be construed as an offer to buy/sell or a recommendation of any security.
+        </div>
+
+        <section class="intro">
+            While the Income Statement shows a company's performance over time, the <strong>Balance Sheet</strong> is a snapshot of its financial health at a specific moment. It follows the fundamental accounting equation:
+        </section>
+
+        <div class="formula-box">
+            $$\text{Assets} = \text{Liabilities} + \text{Shareholders' Equity}$$
+        </div>
+
+        <h2>1. How to Read a Balance Sheet</h2>
+        <p>Think of the balance sheet as a list of everything a company <strong>owns</strong> (Assets) and everything it <strong>owes</strong> (Liabilities). What remains belongs to the owners (Equity).</p>
+
+        <h3>A. Assets: What the Company Owns</h3>
+        <ul>
+            <li><strong>Current Assets:</strong> Liquid items like Cash, Inventory, and Accounts Receivable expected to be converted to cash within a year.</li>
+            <li><strong>Non-Current Assets:</strong> Long-term physical investments like factories and equipment, or intangibles like patents and brand value.</li>
+        </ul>
+
+        <h3>B. Liabilities: What the Company Owes</h3>
+        <ul>
+            <li><strong>Current Liabilities:</strong> Short-term obligations due within a year, such as supplier payments and short-term debt.</li>
+            <li><strong>Long-Term Liabilities:</strong> Major financial obligations like long-term bank loans or corporate bonds used to fund expansion.</li>
+        </ul>
+
+        <h3>C. Shareholders' Equity: The Net Worth</h3>
+        <p>This is the residual value returned to shareholders if all assets were liquidated and debts paid off.</p>
+        <ul>
+            <li><strong>Retained Earnings:</strong> The portion of net income reinvested back into the company. Growing retained earnings signal a healthy, self-sustaining business model.</li>
+        </ul>
+
+        <h2>2. The Bridge to the Stock Price</h2>
+        <p>Investors scrutinize the balance sheet to separate "fortress" companies from "houses of cards":</p>
+
+        <h3>A. Solvency and Risk</h3>
+        <p>The market heavily discounts companies with high <strong>Debt-to-Equity</strong> ratios. In high-interest-rate environments, debt-heavy balance sheets often trigger stock price sell-offs due to increased servicing costs and bankruptcy risk.</p>
+
+        <h3>B. Book Value and the P/B Ratio</h3>
+        <p>Value investors compare market capitalization to the <strong>Book Value</strong> (Shareholders' Equity) to find undervalued opportunities:</p>
+        <div class="formula-box">
+            $$\text{Price-to-Book (P/B) Ratio} = \frac{\text{Market Price per Share}}{\text{Book Value per Share}}$$
+        </div>
+
+        <h3>C. Working Capital Efficiency</h3>
+        <p>A massive buildup in Inventory or Accounts Receivable without rising revenue suggests a breakdown in operations. The market often punishes the stock price in anticipation of future cash flow crunches or asset write-downs.</p>
+
+        <h2>3. Summary Checklist for Rally Investors</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>Bullish Signal</th>
+                    <th>Bearish Signal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Cash Reserves</strong></td>
+                    <td>Growing; covers 1 year of debt</td>
+                    <td>Dwindling; requires new loans</td>
+                </tr>
+                <tr>
+                    <td><strong>Debt-to-Equity</strong></td>
+                    <td>Lower than industry average</td>
+                    <td>Significantly higher than peers</td>
+                </tr>
+                <tr>
+                    <td><strong>Current Ratio</strong></td>
+                    <td>Above 1.5</td>
+                    <td>Below 1.0 (Liquidity risk)</td>
+                </tr>
+                <tr>
+                    <td><strong>Goodwill</strong></td>
+                    <td>Minimal or stable</td>
+                    <td>Massive (Suggests overpayment)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Conclusion</h2>
+        <p>If the Income Statement is the "engine" of the company, the Balance Sheet is the "chassis." A powerful engine is useless if the chassis is broken. For <strong>Rally</strong> investors, the balance sheet provides the necessary margin of safety to survive market downturns.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rally. <a href="disclaimer.html">View Legal Disclaimer</a></p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('tr').forEach(row => {
+            row.addEventListener('mouseover', () => { row.style.backgroundColor = '#f1f5f9'; });
+            row.addEventListener('mouseout', () => { row.style.backgroundColor = 'transparent'; });
+        });
+    </script>
+
+    <script src="shared-assets.js"></script>
+</body>
+</html>

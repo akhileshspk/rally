@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of Portfolio Construction | Rally</title>
+    <meta name="description" content="A comprehensive guide to building a resilient investment portfolio. Learn about asset allocation, risk profiling, and using the Sharpe Ratio for risk-adjusted returns.">
+    <link rel="canonical" href="https://www.rallyblog.in/art-of-portfolio-construction.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #ee6c4c;
+            --text-main: #1F2937;
+            --text-muted: #64748B;
+            --white: #FFFFFF;
+            --light-bg: #F8FAFC;
+        }
+
+        body { font-family: 'Inter', sans-serif; color: var(--text-main); background-color: var(--white); line-height: 1.8; margin: 0; }
+        
+        nav { display: flex; align-items: center; padding: 20px 5%; background: var(--white); border-bottom: 1px solid #E2E8F0; }
+        .logo { font-size: 1.2rem; font-weight: 800; color: #0F172A; text-decoration: none; display: flex; align-items: center; gap: 10px; }
+        .logo i { color: var(--primary); }
+        .logo span { color: var(--primary); }
+
+        .article-container { max-width: 800px; margin: 60px auto 80px; padding: 0 20px; }
+        
+        .category { color: var(--primary); font-weight: 800; text-transform: uppercase; font-size: 0.9rem; }
+        h1 { font-size: 2.8rem; font-weight: 800; margin: 10px 0 20px; color: #0F172A; line-height: 1.2; }
+        .meta { color: var(--text-muted); margin-bottom: 40px; font-weight: 500; }
+
+        .mandatory-disclosure { background: #FFF7ED; border: 1px solid #FED7AA; border-radius: 12px; padding: 25px; margin-bottom: 40px; font-size: 0.95rem; }
+        .mandatory-disclosure strong { color: #C2410C; display: block; margin-bottom: 5px; }
+
+        h2 { font-size: 1.8rem; margin: 50px 0 20px; color: #0F172A; border-bottom: 2px solid #F1F5F9; padding-bottom: 10px; }
+        h3 { color: var(--primary); margin: 30px 0 15px; font-size: 1.3rem; }
+
+        .highlight-box { background: var(--light-bg); border-left: 4px solid var(--primary); padding: 25px; margin: 30px 0; border-radius: 0 12px 12px 0; }
+        .highlight-box h3 { margin-top: 0; color: #0F172A; }
+
+        .formula-box { background: #F1F5F9; text-align: center; padding: 20px; border-radius: 8px; font-family: 'Courier New', Courier, monospace; font-weight: bold; margin: 20px 0; }
+
+        footer { background: #F8FAFC; text-align: center; padding: 40px; border-top: 1px solid #E2E8F0; }
+        footer a { color: var(--primary); text-decoration: none; font-weight: 600; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="icon" href="favicon.ico" sizes="640x640">
+    <link rel="icon" type="image/png" href="logo.png" sizes="640x640">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <nav>
+        <a href="index.html" class="logo"><i class="fa-solid fa-chart-line"></i>Rally</a>
+    </nav>
+
+    <main class="article-container">
+        <span class="category">Portfolio Management</span>
+        <h1>Constructing a Multi-Asset Portfolio: A Strategic Framework</h1>
+        <div class="meta">March 2026 | Investment Essentials</div>
+
+        <div class="mandatory-disclosure">
+            <strong>Legal Disclaimer & Disclosure</strong>
+            This content is strictly for educational purposes. I am not a SEBI-registered Investment Adviser (RIA) or Research Analyst (RA). Nothing posted here should be construed as an offer to buy/sell or a recommendation of any security.
+        </div>
+
+        <section class="intro">
+            Portfolio construction is the systematic process of balancing risk and reward. It is not about picking the "best" stock, but about assembling a collection of assets that work together to achieve long-term resilience and growth.
+        </section>
+
+        <h2>1. The Foundation: Asset Allocation</h2>
+        <p>Asset allocation determines over 90% of a portfolio’s variability in returns. It involves distributing capital across different "buckets" to ensure you aren't overexposed to a single type of risk.</p>
+        <ul>
+            <li><strong>Equities (Stocks):</strong> The primary engine for long-term growth.</li>
+            <li><strong>Fixed Income (Bonds/Debt):</strong> Provides a steady cushion during equity market downturns.</li>
+            <li><strong>Commodities (Gold/Silver):</strong> Acts as a hedge against inflation and currency devaluation.</li>
+            <li><strong>Cash:</strong> Maintains liquidity for emergencies and market opportunities.</li>
+        </ul>
+
+        <h2>2. Measuring Success: The Sharpe Ratio</h2>
+        <p>A portfolio's return is only half the story; the other half is the risk taken to achieve it. The <strong>Sharpe Ratio</strong> is a critical metric used to understand risk-adjusted returns.</p>
+        
+        <div class="formula-box">
+            Sharpe Ratio = (Rp - Rf) / σp
+        </div>
+        
+        <p>Where <strong>Rp</strong> is the portfolio return, <strong>Rf</strong> is the risk-free rate, and <strong>σp</strong> is the standard deviation (volatility). A higher ratio indicates a more efficient portfolio.</p>
+
+        <h2>Sharpe Ratio in Practice: Strategy Examples</h2>
+        <p>Constructing a portfolio using the Sharpe Ratio is centered on the principle of maximizing risk-adjusted returns. Below are three examples of how investors with different objectives use this metric to determine their ideal asset mix.</p>
+
+        <div class="highlight-box">
+            <h3>1. The "Optimal Risky" Portfolio (Modern Portfolio Theory)</h3>
+            <p>In institutional finance, the Sharpe Ratio is used to find the <strong>Tangency Portfolio</strong>. This is the specific mix of assets on the "Efficient Frontier" that offers the highest possible return for every unit of volatility.</p>
+            <ul>
+                <li><strong>Construction Logic:</strong> An analyst runs a mean-variance optimization across various asset classes (Indian Equities, US Tech, Corporate Bonds, and Gold).</li>
+                <li><strong>Result:</strong> The model might find that a portfolio of 45% US Equities, 35% Indian Blue-chips, and 20% Gold has a higher Sharpe Ratio than a portfolio of 100% Equities.</li>
+                <li><strong>Outcome:</strong> Even though the 100% Equity portfolio has a higher total return, the Tangency Portfolio is chosen because its "volatility-to-reward" efficiency is superior.</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h3>2. The "Low-Volatility" Income Portfolio</h3>
+            <p>Conservative investors use the Sharpe Ratio to ensure they aren't taking "uncompensated risk." They look for assets that provide a steady yield with minimal price swings.</p>
+            <ul>
+                <li><strong>Construction Logic:</strong> An investor compares two debt-oriented options: Option A (High-yield corporate bonds, 8% return, 10% volatility) vs. Option B (Government-backed securities, 6% return, 2% volatility).</li>
+                <li><strong>Calculation:</strong> Assuming a risk-free rate of 5%, Option A has a ratio of <strong>0.3</strong>, while Option B has a ratio of <strong>0.5</strong>.</li>
+                <li><strong>Outcome:</strong> The investor constructs the portfolio primarily with Option B. Despite the lower absolute return, it provides a better risk-adjusted "bang for the buck."</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h3>3. The Multi-Asset "All Weather" Portfolio</h3>
+            <p>This approach uses the Sharpe Ratio to prove the benefits of <strong>Low Correlation</strong>. The goal is to combine assets that peak at different times to smooth out the equity curve.</p>
+            <ul>
+                <li><strong>Construction Logic:</strong> By adding "hedges" like Gold and USD exposure (which often rise during stock market crashes), the portfolio's total volatility (σp) drops significantly.</li>
+                <li><strong>Resulting Portfolio:</strong> 50% Nifty 50 Index, 25% S&P 500, 15% Gold, and 10% Liquid Cash.</li>
+                <li><strong>Outcome:</strong> This mix often maintains a Sharpe Ratio above 1.0, whereas a pure stock portfolio might drop below 0.5 during volatile years.</li>
+            </ul>
+        </div>
+
+        <p><strong>How to use these examples in your strategy:</strong> When evaluating your own portfolio, ask: "Is my return coming from smart allocation (High Sharpe) or simply from being over-leveraged in a risky sector (Low Sharpe)?"</p>
+
+        <div class="highlight-box">
+            <h3>The Limitations</h3>
+            <p>While powerful, the Sharpe Ratio assumes that market returns follow a <strong>Normal Distribution</strong> (the "Bell Curve"). It may underestimate risk in markets prone to "Black Swan" events or high kurtosis (frequent extreme price spikes), which is particularly relevant in high-volatility environments.</p>
+        </div>
+
+        <h2>3. Diversification & Rebalancing</h2>
+        <p>To build a robust portfolio, you must diversify by <strong>Geography</strong> (USA vs. Indian markets), <strong>Sector</strong> (Tech, Banking, Pharma), and <strong>Market Cap</strong> (Large, Mid, Small).</p>
+        <p>Every 6 to 12 months, you must reset your portfolio to its target weights. This rebalancing act enforces the discipline of "selling high and buying low" as you shift capital from outperforming assets back into your baseline targets.</p>
+
+        <h2>Conclusion</h2>
+        <p>Constructing a portfolio is a marathon, not a sprint. By defining your allocation, utilizing metrics like the Sharpe Ratio to measure risk-adjusted performance, and rebalancing regularly, you can build a financial structure that survives market cycles and meets your long-term goals.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rally. <a href="disclaimer.html">View Legal Disclaimer</a></p>
+    </footer>
+
+    <script src="shared-assets.js"></script>
+</body>
+</html>

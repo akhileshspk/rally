@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoding the Income Statement | Rally</title>
+    <meta name="description" content="A professional guide to reading an income statement. Learn the flow from Revenue to Net Income and how earnings influence stock prices.">
+    <link rel="canonical" href="https://www.rallyblog.in/post-income-statement.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --primary: #ee6c4c;
+            --text-main: #1F2937;
+            --text-muted: #64748B;
+            --white: #FFFFFF;
+            --light-bg: #F8FAFC;
+        }
+
+        body { font-family: 'Inter', sans-serif; color: var(--text-main); background-color: var(--white); line-height: 1.8; margin: 0; }
+        
+        nav { display: flex; align-items: center; padding: 20px 5%; background: var(--white); border-bottom: 1px solid #E2E8F0; }
+        .logo { font-size: 1.2rem; font-weight: 800; color: #0F172A; text-decoration: none; }
+        .logo span { color: var(--primary); }
+        .logo i { color: var(--primary); margin-right: 10px; }
+
+        .article-container { max-width: 800px; margin: 60px auto 80px; padding: 0 20px; }
+        
+        .category { color: var(--primary); font-weight: 800; text-transform: uppercase; font-size: 0.9rem; }
+        h1 { font-size: 2.8rem; font-weight: 800; margin: 10px 0 20px; color: #0F172A; line-height: 1.2; }
+        .meta { color: var(--text-muted); margin-bottom: 40px; font-weight: 500; }
+
+        .mandatory-disclosure { background: #FFF7ED; border: 1px solid #FED7AA; border-radius: 12px; padding: 25px; margin-bottom: 40px; font-size: 0.95rem; }
+        .mandatory-disclosure strong { color: #C2410C; display: block; margin-bottom: 5px; }
+
+        h2 { font-size: 1.8rem; margin: 50px 0 20px; color: #0F172A; border-bottom: 2px solid #F1F5F9; padding-bottom: 10px; }
+        h3 { color: var(--primary); margin: 30px 0 10px; font-size: 1.2rem; }
+        
+        .comparison-table { width: 100%; border-collapse: collapse; margin: 30px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; font-size: 0.95rem; }
+        .comparison-table th { background: #F1F5F9; padding: 15px; text-align: left; font-weight: 700; }
+        .comparison-table td { padding: 15px; border-top: 1px solid #E2E8F0; }
+
+        .highlight-box { background: var(--light-bg); border-left: 4px solid var(--primary); padding: 25px; margin: 30px 0; border-radius: 0 12px 12px 0; }
+        
+        .formula-box { background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; padding: 20px; text-align: center; margin: 20px 0; }
+
+        footer { background: #F8FAFC; text-align: center; padding: 40px; border-top: 1px solid #E2E8F0; }
+        footer a { color: var(--primary); text-decoration: none; font-weight: 600; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .comparison-table { font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="icon" href="favicon.ico" sizes="640x640">
+    <link rel="icon" type="image/png" href="logo.png" sizes="640x640">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <nav>
+        <a href="index.html" class="logo"><i class="fa-solid fa-chart-line"></i>Rally</a>
+    </nav>
+
+    <main class="article-container">
+        <span class="category">Fundamental Analysis</span>
+        <h1>Decoding the Income Statement: The Story of Profit</h1>
+        <div class="meta">March 2026 | Equity Research</div>
+
+        <div class="mandatory-disclosure">
+            <strong>Legal Disclaimer & Disclosure</strong>
+            This content is strictly for educational purposes. I am not a SEBI-registered Investment Adviser (RIA) or Research Analyst (RA). Nothing posted here should be construed as an offer to buy/sell or a recommendation of any security.
+        </div>
+
+        <section class="intro">
+            Reading an income statement (also known as a Profit and Loss or P&L statement) is the cornerstone of fundamental analysis. It tells you the "story" of how a company generates revenue and converts it into profit over a specific period.
+        </section>
+
+        <h2>1. How to Read an Income Statement</h2>
+        <p>To read an income statement like a professional, you follow the "Top-Line to Bottom-Line" flow, where each step subtracts specific expenses:</p>
+        
+        <ul>
+            <li><strong>The Top Line (Revenue):</strong> The total cash inflow from sales. Look for consistent year-over-year (YoY) growth rather than one-time spikes.</li>
+            <li><strong>Gross Profit:</strong> Revenue minus Cost of Goods Sold (COGS). This reflects production efficiency.</li>
+            <li><strong>Operating Profit (EBIT):</strong> Gross Profit minus operating costs like R&D and Marketing. This shows if the core business model works before financial engineering.</li>
+            <li><strong>The Bottom Line (Net Income):</strong> The final profit after interest and taxes. Beware of "one-time gains" from asset sales that may mask poor operational performance.</li>
+        </ul>
+
+        <h2>2. The Bridge to the Stock Price</h2>
+        <p>The market acts as a weighing machine for future profits. The income statement provides the raw data for these weights:</p>
+        
+        <h3>A. Earnings Per Share (EPS) and the P/E Ratio</h3>
+        <p>The stock price is often a function of the company's ability to generate profit per share:</p>
+        <div class="formula-box">
+            $$EPS = \frac{\text{Net Income}}{\text{Total Outstanding Shares}}$$
+        </div>
+        <p>When EPS beats market expectations, the P/E ratio becomes more attractive, often triggering a rally in the share price.</p>
+
+        <h3>B. Margin Expansion vs. Contraction</h3>
+        <p>Investors reward efficiency. If a company moves its Operating Margin from 15% to 18%, the market often rewards it with a valuation premium. Conversely, shrinking margins due to inflation can trigger sell-offs even if revenue is growing.</p>
+
+        <h3>C. The "Guidance" Factor</h3>
+        <p>A stock price reflects the <em>future</em> income statement. If reported earnings are high but the CEO issues weak "Guidance" (lower expectations for next quarter), the stock price will likely fall immediately.</p>
+
+        <h2>3. Summary Checklist for Rally Investors</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>Bullish Signal</th>
+                    <th>Bearish Signal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Revenue</strong></td>
+                    <td>Outpacing industry growth</td>
+                    <td>Stagnant or declining</td>
+                </tr>
+                <tr>
+                    <td><strong>Operating Expenses</strong></td>
+                    <td>Growing slower than Revenue</td>
+                    <td>Growing faster than Revenue</td>
+                </tr>
+                <tr>
+                    <td><strong>Net Income</strong></td>
+                    <td>Driven by core operations</td>
+                    <td>Driven by one-time asset sales</td>
+                </tr>
+                <tr>
+                    <td><strong>EPS</strong></td>
+                    <td>Consistent analyst "beats"</td>
+                    <td>Missing estimates / Sandbagging</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Conclusion</h2>
+        <p>While the Balance Sheet shows what a company owns, the Income Statement shows what it <strong>does</strong>. For a long-term investor, a healthy income statement with expanding margins is the most reliable predictor of sustainable stock price appreciation.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rally. <a href="disclaimer.html">View Legal Disclaimer</a></p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('tr').forEach(row => {
+            row.addEventListener('mouseover', () => { row.style.backgroundColor = '#f1f5f9'; });
+            row.addEventListener('mouseout', () => { row.style.backgroundColor = 'transparent'; });
+        });
+    </script>
+
+    <script src="shared-assets.js"></script>
+</body>
+</html>
