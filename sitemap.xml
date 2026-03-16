@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-  <loc>https://www.rallyblog.in/</loc>
-  <lastmod>2026-03-15</lastmod>
-  <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.rallyblog.in/index.html</loc>
-    <lastmod>2026-03-15</lastmod>
+    <url>
+    <loc>https://www.rallyblog.in/</loc>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -98,6 +93,12 @@
   <url>
     <loc>https://www.rallyblog.in/post-tariffs-economics.html</loc>
     <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rallyblog.in/post-mutual-fund-guide.html</loc>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
