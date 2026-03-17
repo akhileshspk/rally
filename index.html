@@ -32,6 +32,14 @@
         .section { padding: 80px 5%; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto; }
         
+        main {
+            padding-bottom: 0px !important; /* Removes bottom padding from the main container */
+        }
+
+        .posts-grid {
+            margin-bottom: 0px !important; /* Removes bottom margin from the grid of cards */
+        }
+        
         .post-card { background: var(--white); border-radius: 16px; border: 1px solid #E2E8F0; overflow: hidden; transition: transform 0.3s ease; text-decoration: none; color: inherit; display: flex; flex-direction: column; }
         .post-card:hover { transform: translateY(-8px); }
         .post-content { padding: 30px; }
