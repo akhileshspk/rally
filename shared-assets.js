@@ -20,20 +20,22 @@ const navHTML = `
 
 // 2. Newsletter HTML
 const newsletterHTML = `
-<section id="newsletter-footer" style="background: #F8FAFC; padding: 60px 20px; text-align: center; border-top: 1px solid #E2E8F0; margin-top: 60px;">
-    <div style="max-width: 600px; margin: 0 auto;">
-        <i class="fa-regular fa-envelope-open" style="font-size: 2.5rem; color: ${primaryColor}; margin-bottom: 10px;"></i>
-        <h2 style="font-size: 2rem; color: #0F172A; margin-bottom: 10px;">Stay Ahead of the Market</h2>
-        <p style="color: #64748B; margin-bottom: 10px;">Get the latest insights on trading.</p>
+<section id="newsletter-footer" style="background: #F8FAFC; padding: 60px 20px; text-align: center; margin-top: 60px; box-sizing: border-box;">
+    <div style="max-width: 600px; margin: 0 auto; box-sizing: border-box;">
+        <i class="fa-regular fa-envelope-open" style="font-size: 2.5rem; color: ${primaryColor}; margin: 0 0 20px 0; padding: 0; display: block;"></i>
         
-        <form id="newsletterForm" style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+        <h2 style="font-size: 2rem; color: #0F172A; margin: 0 0 10px 0; padding: 0; padding-bottom: 0; border: none; line-height: 1.2;">Stay Ahead of the Market</h2>
+        
+        <p style="color: #64748B; margin: 0 0 30px 0; padding: 0; line-height: 1.5;">Get the latest insights on trading.</p>
+        
+        <form id="newsletterForm" style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin: 0; padding: 0;">
             <input type="email" id="emailInput" placeholder="Enter your email" required 
-                   style="padding: 12px 20px; border: 1px solid #E2E8F0; border-radius: 8px; flex: 1; min-width: 250px; font-family: 'Inter'; outline: none;">
-            <button type="submit" style="background: ${primaryColor}; color: white; border: none; padding: 12px 30px; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                   style="padding: 12px 20px; border: 1px solid #E2E8F0; border-radius: 8px; flex: 1; min-width: 250px; font-family: 'Inter'; outline: none; box-sizing: border-box; margin: 0;">
+            <button type="submit" style="background: ${primaryColor}; color: white; border: none; padding: 12px 30px; border-radius: 8px; font-weight: 600; cursor: pointer; box-sizing: border-box; margin: 0;">
                 Subscribe
             </button>
         </form>
-        <p id="responseMessage" style="margin-top: 10px; font-size: 0.9rem; font-weight: 500; min-height: 24px;"></p>
+        <p id="responseMessage" style="margin: 15px 0 0 0; padding: 0; font-size: 0.9rem; font-weight: 500; min-height: 24px; line-height: 1.5;"></p>
     </div>
 </section>`;
 
